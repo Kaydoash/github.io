@@ -38,7 +38,18 @@
       </nav>
     </footer>
       
-  <script src="script.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('changeContent');
+  
+    if (button) {
+      button.addEventListener('click', () => {
+        document.body.style.backgroundColor = '#ADD8E6';
+        alert('Background color changed!');
+      });
+    }
+  });
+  </script>
   </body>
 
 </html>
