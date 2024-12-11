@@ -44,8 +44,11 @@
   
     if (button) {
       button.addEventListener('click', () => {
-        document.body.style.backgroundColor = '#ADD8E6';
-        alert('Background color changed!');
+        const sections = document.querySelectorAll('main section'); // Select all sections in <main>
+        sections.forEach(section => {
+          section.style.backgroundColor = 'red'; // Change each section's background color to red
+        });
+        alert('Sections background color changed to red!');
       });
     }
   });
