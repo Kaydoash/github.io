@@ -91,6 +91,7 @@ svg {
   margin: 20px auto; 
   width: 100px;
   height: 100px;
+  animation: bounce 2s infinite;
 }
 
 svg circle {
