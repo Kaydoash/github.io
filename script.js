@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
   
     if (button) {
       button.addEventListener('click', () => {
-        const sections = document.querySelectorAll('main section'); // Select all sections in <main>
+        const sections = document.querySelectorAll('main section');
         sections.forEach(section => {
-          section.style.backgroundColor = 'red'; // Change each section's background color to red
+          section.style.backgroundColor = #F08080;
         });
-        alert('Sections background color changed to red!');
+        alert('The Color to some areas are now coral!');
       });
     }
   });
