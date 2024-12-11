@@ -87,14 +87,14 @@ a{
   color: #0066cc;
 }
 svg {
-  animation: spin 3s linear infinite;
+  display: block;
+  margin: 20px auto; /* Centers the SVG on the page */
+  width: 100px;
+  height: 100px;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+svg circle {
+  stroke: black; /* Black outline */
+  stroke-width: 3; /* Thickness of the outline */
+  fill: gold; /* Gold fill color */
 }
