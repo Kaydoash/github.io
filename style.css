@@ -88,13 +88,13 @@ a{
 }
 svg {
   display: block;
-  margin: 20px auto; /* Centers the SVG on the page */
+  margin: 20px auto; 
   width: 100px;
   height: 100px;
 }
 
 svg circle {
-  stroke: black; /* Black outline */
-  stroke-width: 3; /* Thickness of the outline */
-  fill: gold; /* Gold fill color */
+  stroke: black; 
+  stroke-width: 3;
+  fill: gold; 
 }
